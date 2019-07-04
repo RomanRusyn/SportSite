@@ -25,3 +25,5 @@ def index(request):
                   context)  # рендер бере темплейт( шаблон) і підставляє мої дані, то в (продактс) контекст.
 
 # Create your views here.
+def hello_world(request):
+    return render(request, 'sport/base.html',{})
